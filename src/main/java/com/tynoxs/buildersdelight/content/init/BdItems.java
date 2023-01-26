@@ -11,7 +11,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class BdItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BuildersDelight.MODID);
 
-    public static final RegistryObject<Item> IRON_CHISEL = ITEMS.register("iron_chisel", () -> new BdIronChisel(new Item.Properties().tab(BdTabs.TabMaterials).stacksTo(1)));
     public static final RegistryObject<Item> ACACIA_FURNITURE_KIT = ITEMS.register("acacia_furniture_kit", () -> new BdFurnitureKit(new Item.Properties().tab(BdTabs.TabMaterials).stacksTo(64)));
     public static final RegistryObject<Item> BIRCH_FURNITURE_KIT = ITEMS.register("birch_furniture_kit", () -> new BdFurnitureKit(new Item.Properties().tab(BdTabs.TabMaterials).stacksTo(64)));
     public static final RegistryObject<Item> CRIMSON_FURNITURE_KIT = ITEMS.register("crimson_furniture_kit", () -> new BdFurnitureKit(new Item.Properties().tab(BdTabs.TabMaterials).stacksTo(64)));
